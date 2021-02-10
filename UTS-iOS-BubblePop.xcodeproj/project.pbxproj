@@ -13,6 +13,16 @@
 		43DEAA2424A78A1700AD1550 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43DEAA2224A78A1700AD1550 /* Main.storyboard */; };
 		43DEAA2624A78A1800AD1550 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43DEAA2524A78A1800AD1550 /* Assets.xcassets */; };
 		43DEAA2924A78A1800AD1550 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43DEAA2724A78A1800AD1550 /* LaunchScreen.storyboard */; };
+		43DEAA3324A78A9300AD1550 /* Bubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DEAA3224A78A9300AD1550 /* Bubble.swift */; };
+		43DEAA3524A78AD500AD1550 /* StoringData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DEAA3424A78AD500AD1550 /* StoringData.swift */; };
+		43DEAA3724A78AE900AD1550 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DEAA3624A78AE900AD1550 /* SettingsViewController.swift */; };
+		43DEAA3924A78AFE00AD1550 /* BubbleSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DEAA3824A78AFE00AD1550 /* BubbleSettings.swift */; };
+		43DEAA3B24A78B2000AD1550 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DEAA3A24A78B2000AD1550 /* ScoreViewController.swift */; };
+		43DEAA3D24A78B3300AD1550 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DEAA3C24A78B3200AD1550 /* ScoreView.swift */; };
+		43DEAA3F24A78B5600AD1550 /* UserDataDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DEAA3E24A78B5600AD1550 /* UserDataDisplay.swift */; };
+		43DEAA4124A78B7800AD1550 /* GameSceneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DEAA4024A78B7800AD1550 /* GameSceneController.swift */; };
+		43DEAA4324A78B8800AD1550 /* LeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DEAA4224A78B8700AD1550 /* LeaderViewController.swift */; };
+		43DEAA4524A78BF400AD1550 /* TimeLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DEAA4424A78BF400AD1550 /* TimeLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +34,16 @@
 		43DEAA2524A78A1800AD1550 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43DEAA2824A78A1800AD1550 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		43DEAA2A24A78A1800AD1550 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43DEAA3224A78A9300AD1550 /* Bubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bubble.swift; sourceTree = "<group>"; };
+		43DEAA3424A78AD500AD1550 /* StoringData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoringData.swift; sourceTree = "<group>"; };
+		43DEAA3624A78AE900AD1550 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		43DEAA3824A78AFE00AD1550 /* BubbleSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSettings.swift; sourceTree = "<group>"; };
+		43DEAA3A24A78B2000AD1550 /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+		43DEAA3C24A78B3200AD1550 /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
+		43DEAA3E24A78B5600AD1550 /* UserDataDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataDisplay.swift; sourceTree = "<group>"; };
+		43DEAA4024A78B7800AD1550 /* GameSceneController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSceneController.swift; sourceTree = "<group>"; };
+		43DEAA4224A78B8700AD1550 /* LeaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderViewController.swift; sourceTree = "<group>"; };
+		43DEAA4424A78BF400AD1550 /* TimeLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +76,41 @@
 		43DEAA1B24A78A1700AD1550 /* UTS-iOS-BubblePop */ = {
 			isa = PBXGroup;
 			children = (
+				43DEAA3124A78A6800AD1550 /* ViewControllers */,
+				43DEAA3024A78A5100AD1550 /* Model */,
 				43DEAA1C24A78A1700AD1550 /* AppDelegate.swift */,
 				43DEAA1E24A78A1700AD1550 /* SceneDelegate.swift */,
-				43DEAA2024A78A1700AD1550 /* ViewController.swift */,
 				43DEAA2224A78A1700AD1550 /* Main.storyboard */,
 				43DEAA2524A78A1800AD1550 /* Assets.xcassets */,
 				43DEAA2724A78A1800AD1550 /* LaunchScreen.storyboard */,
 				43DEAA2A24A78A1800AD1550 /* Info.plist */,
 			);
 			path = "UTS-iOS-BubblePop";
+			sourceTree = "<group>";
+		};
+		43DEAA3024A78A5100AD1550 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				43DEAA3224A78A9300AD1550 /* Bubble.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		43DEAA3124A78A6800AD1550 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				43DEAA2024A78A1700AD1550 /* ViewController.swift */,
+				43DEAA3424A78AD500AD1550 /* StoringData.swift */,
+				43DEAA3624A78AE900AD1550 /* SettingsViewController.swift */,
+				43DEAA3824A78AFE00AD1550 /* BubbleSettings.swift */,
+				43DEAA3A24A78B2000AD1550 /* ScoreViewController.swift */,
+				43DEAA3C24A78B3200AD1550 /* ScoreView.swift */,
+				43DEAA3E24A78B5600AD1550 /* UserDataDisplay.swift */,
+				43DEAA4024A78B7800AD1550 /* GameSceneController.swift */,
+				43DEAA4224A78B8700AD1550 /* LeaderViewController.swift */,
+				43DEAA4424A78BF400AD1550 /* TimeLoader.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +184,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43DEAA3924A78AFE00AD1550 /* BubbleSettings.swift in Sources */,
+				43DEAA3F24A78B5600AD1550 /* UserDataDisplay.swift in Sources */,
 				43DEAA2124A78A1700AD1550 /* ViewController.swift in Sources */,
+				43DEAA3D24A78B3300AD1550 /* ScoreView.swift in Sources */,
 				43DEAA1D24A78A1700AD1550 /* AppDelegate.swift in Sources */,
 				43DEAA1F24A78A1700AD1550 /* SceneDelegate.swift in Sources */,
+				43DEAA4524A78BF400AD1550 /* TimeLoader.swift in Sources */,
+				43DEAA4124A78B7800AD1550 /* GameSceneController.swift in Sources */,
+				43DEAA3324A78A9300AD1550 /* Bubble.swift in Sources */,
+				43DEAA3524A78AD500AD1550 /* StoringData.swift in Sources */,
+				43DEAA4324A78B8800AD1550 /* LeaderViewController.swift in Sources */,
+				43DEAA3724A78AE900AD1550 /* SettingsViewController.swift in Sources */,
+				43DEAA3B24A78B2000AD1550 /* ScoreViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,6 +279,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -276,6 +333,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
